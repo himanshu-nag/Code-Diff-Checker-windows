@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "DiffTool/1.0.0": {
+        "dependencies": {
+          "DiffPlex": "1.9.0"
+        },
+        "runtime": {
+          "DiffTool.dll": {}
+        }
+      },
+      "DiffPlex/1.9.0": {
+        "runtime": {
+          "lib/net6.0/DiffPlex.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiffTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiffPlex/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z4IDEH6iOb6d+Y2QUjsbq1Fp5I/kwZzNdr/evBTbCGq+ShAjE4baLm7lX1tfjV2p34QI3V9kctCQziFuuKqeCA==",
+      "path": "diffplex/1.9.0",
+      "hashPath": "diffplex.1.9.0.nupkg.sha512"
+    }
+  }
+}
